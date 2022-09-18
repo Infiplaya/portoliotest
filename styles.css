@@ -1,0 +1,107 @@
+body
+{
+    background-color: #F8F7FF;
+}
+
+.nav-link:hover
+{
+    text-decoration: underline;
+}
+
+
+.link
+{
+    color: #3C60FA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover
+{
+    color: #3C60FA;
+    text-decoration: underline;
+}
+
+
+input[type="text"]
+{
+    background-color: transparent;
+}
+
+.bi-toggle-off
+{
+    margin-top: 4px;
+    margin-right: 20px;
+}
+
+
+.bi-toggle-on
+{
+    margin-top: 4px;
+    margin-right: 20px;
+}
+
+.dark
+{
+    background-color: #202023;
+    color: #d8d8d8;
+}
+
+.dark input[type="text"]
+{
+    border: solid;
+    border-width: thin;
+    color: #F8F7FF;
+}
+
+.dark .link
+{
+    color: #C12AD4;
+}
+
+.dark .card
+{
+    border: none;
+}
+.dark .card-body
+{
+    background-color: #202023;
+}
+
+.dark #Email1
+{
+    background-color: #202023;
+    color: #d8d8d8;
+}
+
+.dark #Message1
+{
+    background-color: #202023;
+    color: #d8d8d8;
+}
+
+.dark #Name1:focus
+{
+    background-color: #202023;
+}
+
+.dark #Subject1:focus
+{
+    background-color: #202023;
+}
+
+
+#Email1
+{
+    background-color: transparent;
+}
+
+#Message1
+{
+    background-color: transparent;
+}
+
+
+.hero {
+    transition: 0.3s;
+}
