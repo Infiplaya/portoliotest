@@ -5,10 +5,8 @@ const hero = document.querySelector('.hero')
 
 
 // when form is submitted
-formSubmit.addEventListener('submit', (e) => {
-    e.preventDefault();
+formSubmit.addEventListener('submit', () => {
     let userName = document.querySelector('#name').value
-    const greeting = document.createElement('div');
     greeting.innerHTML = `<div class="mx-auto m-3 text-center" style="width: 50%;">
         <h1>Hello, ${userName}</h1>
         <h1 class ="display-5 fs-4">My name is Robo. Nice to meet you.</h1>
@@ -18,8 +16,12 @@ formSubmit.addEventListener('submit', (e) => {
             <a href="contact.html" class="link">Contact me</a>!</p>
             <img src="images/dog.png" class="img-fluid" alt="...">
     </div>`
-    hero.innerHTML = greeting.innerHTML
+    hero.innerHTML = greeting.innerHTML;
+    return false;
 })
+
+
+
 
 
 // dark mode
